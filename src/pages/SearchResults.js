@@ -5,8 +5,7 @@ import './SearchResults.css';
 
 
 function SearchResults() {
-    
-    const [query, setQuery] = useState('');
+
     const [loading, setLoading] = useState(false);
     const [movies, setMovies] = useState([]);
     const [search, setSearch]=useState(false)

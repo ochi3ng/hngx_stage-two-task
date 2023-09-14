@@ -6,11 +6,11 @@
 
 .search-input {
   padding: 8px;
-  width: 70%;
+  width: 90%;
   border: 1px solid #ccc;
   border-radius: 4px;
-margin-left: 3rem;
-margin-top: -90px;
+ margin-left: 35rem;
+margin-top: -50px;
 
 }
 
@@ -21,13 +21,10 @@ margin-top: -90px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: -90px;
+  margin-top: -50px;
+
 }
-.search-button:hover{
-    cursor: pointer;
-    background-color:yellow;
-    color: black;
-}
+
 
 .search-button:hover {
   background-color: #0056b3;
