@@ -16,19 +16,21 @@ function Home() {
 
     return (
         <div>
-             <div className='homescreen'>
+            <div>
                 <HomeScreen />
-             </div>
-           <div className='home-container'>
-                <div className='home_title'>Featured Movies</div>
-              
-           </div>
+            </div>
+          <div className='home'>
+                <div className='home-container'>
+                    <div className='home_title'>Featured Movies</div>
+
+                </div>
                 <div className="movie-grid">
-                        {topMovies.map((movie) => (
-                            <MovieCard key={movie.id} movie={movie} />
-                        ))}
-                    </div>
-                        
+                    {topMovies.map((movie) => (
+                        <MovieCard key={movie.id} movie={movie} />
+                    ))}
+                </div>
+
+          </div>
         </div>
     );
 }

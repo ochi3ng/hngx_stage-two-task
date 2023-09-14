@@ -3,6 +3,9 @@
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 20px;
 }
+.home{
+padding-top: 30rem;
+}
 
 .movie-grid h1 {
   font-size: 1.5rem;
