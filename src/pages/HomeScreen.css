@@ -1,0 +1,35 @@
+
+.background{
+position: absolute;
+width: 100vw;
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxmR0XDQ_KrV46eZInoOkIc0X8UgyBSDLAFYQS6yk9A&s');
+padding-bottom: -15rem;
+
+}
+
+h1{
+  font-size: 4rem;
+  color: white;
+  width: 400px;
+    margin-left: 2rem;
+}
+p{
+  color: white;
+  width: 300px;
+  margin-left: 2rem;
+}
+.buttn{
+  background-color: red;
+  color: white;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    height: 40px;
+
+  border: none;
+   padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
