@@ -17,7 +17,7 @@ function Home() {
     return (
         <div>
             <div>
-                <HomeScreen />
+                 <HomeScreen />
             </div>
           <div className='home'>
                 <div className='home-container'>
